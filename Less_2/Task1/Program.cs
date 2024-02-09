@@ -11,3 +11,7 @@ System.Console.WriteLine(arr [1]);
 System.Console.WriteLine(arr [2]);
 System.Console.WriteLine(arr [3]);
 System.Console.WriteLine(arr [4]);
+
+int [] arr2 = new int[5] {1,2,3,4,5}; //полный формат создания и заполнения
+
+int [] arr3 = {1,2,3,4,5}; //упрощенный формат

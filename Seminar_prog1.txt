@@ -1,0 +1,59 @@
+// Задание 2. Совместная работа
+// Семинар 1. Знакомство с языками программирования
+// Напишите программу, которая на вход принимает
+// целое число N, а на выходе показывает все целые
+// числа в промежутке от -N до N.
+// Примеры
+// 4 => -4, -3, -2, -1, 0, 1, 2, 3, 4
+// 2 => -2, -1, 0, 1, 2
+
+
+int FirstDigit = 4;
+int i = -FirstDigit;
+while (FirstDigit >= i)
+{
+    
+    Console.Write(i+ " ");
+    i++;
+   
+}
+
+// работа
+
+// Напишите программу, которая на вход
+// принимает два целых числа и проверяет,
+// является ли первое число квадратом второго.
+// a = 25, b = 5 => да
+// a = 2, b = 10 => нет
+// a = 9, b = -3 => да
+// a = -3, b = 9 => нет
+
+int a;
+int b;
+
+if (b * b == a)
+{
+    System.Console.WriteLine("Да ");
+}
+else
+{
+    System.Console.WriteLine("Нет");
+}
+
+Сумма 1 и 3 числа вар1
+
+int number = 456;
+
+int firstDigit = number / 100;
+
+int lastDigit = number % 10;
+
+int sum = firstDigit + lastDigit;
+
+Console.WriteLine(sum);
+
+вар2
+
+int number = 782;
+
+Console.WriteLine(number / 100 + number % 10);
